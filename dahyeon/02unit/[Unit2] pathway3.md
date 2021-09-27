@@ -1,5 +1,5 @@
 ## RecyclerView를 사용하여 스크롤 가능한 목록 표시
-#
+
 ### 데이터 목록 설정하기
 - 예를 들어 strings.xml 파일이 아래와 같다면  
 ```kotlin
@@ -20,7 +20,7 @@ R.string.affirmation1으로 참조 가능
     + 어댑터 내에서 getItemsCount(), onCreateViewHolder(), onBindViewHolder() 메서드를 구현합니다.
   
 ## 카드를 사용하여 이미지 목록 표시
-#
+
 ### 요약
 + RecyclerView에 추가 콘텐츠를 표시하려면 기본 데이터 모델 클래스와 데이터 소스를 수정합니다. 그런 다음, 목록 항목 레이아웃 및 어댑터를 업데이트하여 데이터를 뷰에 설정합니다.
 + 리소스 주석을 사용하여 올바른 유형의 리소스 ID가 클래스 생성자에 전달되도록 합니다.
